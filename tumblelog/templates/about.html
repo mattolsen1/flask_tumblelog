@@ -1,0 +1,22 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+{% block content %}
+  <h1><b>About</b></h1>
+  <p>This is a sample Flask app for a UW Python Class in 2013.
+    The application is built using the flask microframework and 
+mongodb running on mongohq.</p>
+<br>
+<br>
+<h2>
+  <a href="http://flask.pocoo.org/">Flask</a> <small>Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions. </small>
+</h2>
+<br>
+<h2>
+  <a href="http://www.mongodb.org/">Mongodb</a> <small>MongoDB (from "humongous") is a scalable, high-performance, open source NoSQL database. </small>
+</h2>
+<br>
+<h2>
+  <a href="http://mongoengine.org/">Mongoengine</a> <small>MongoEngine is a Document-Object Mapper (think ORM, but for document databases) for working with MongoDB from Python. It uses a simple declarative API, similar to the Django ORM</small>
+</h2>
+
+{% endblock %}
