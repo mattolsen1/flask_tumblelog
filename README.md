@@ -13,16 +13,18 @@ Setup Virtual Env:
 
 
 Install needed items:
-* pip install flask
-* pip install flask-script
-* pip install WTForms
-* pip install mongoengine
-* pip install flask_mongoengine
+
+      pip install flask
+      pip install flask-script
+      pip install WTForms
+      pip install mongoengine
+      pip install flask_mongoengine
 
 
 
 Run the tumblelog:
-* python manage.py runserver
+
+      python manage.py runserver
 * Goto: [http://localhost:5000](http://localhost:5000)
 
 Technology Used
